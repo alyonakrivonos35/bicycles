@@ -85,6 +85,12 @@ body {
 		left: 50%;
 		transform: translate3d(-49%, 0px, 0px);
 	}
+	@media (max-height:600px) {
+		&__logo {
+			transform: translate3d(-49%, 0px, 0px) scale3d(0.8, 0.8, 0.8);
+			top: -10px;
+		}
+	}
 }
 .header-menu {
 	@media (max-width:767px) {
